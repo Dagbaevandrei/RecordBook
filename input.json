@@ -1,0 +1,21 @@
+{
+  "Student": {
+    "FullName": "Иванов Иван Иванович",
+    "Faculty": "Факультет информатики",
+    "Department": "Дневное отделение",
+    "Specialty": "Программная инженерия",
+    "RecordBookNumber": "ЗК-21-045"
+  },
+  "Teachers": [
+    { "Id": 1, "FullName": "Петров Пётр Петрович", "Position": "Доцент", "Department": "Кафедра программирования" },
+    { "Id": 2, "FullName": "Сидорова Анна Сергеевна", "Position": "Профессор", "Department": "Кафедра математики" }
+  ],
+  "Grades": [
+    { "Id": 1, "Subject": "Математический анализ", "Type": "Exam", "Score": 5, "Date": "2024-06-10T00:00:00", "TeacherId": 2 },
+    { "Id": 2, "Subject": "Программирование", "Type": "Credit", "Score": 1, "Date": "2024-06-15T00:00:00", "TeacherId": 1 }
+  ],
+  "CourseWorks": [
+    { "Id": 1, "Subject": "ООП", "Topic": "Паттерны проектирования", "Score": 4, "Date": "2024-05-20T00:00:00", "TeacherId": 1 }
+  ],
+  "DiplomaWork": null
+}
