@@ -1,0 +1,13 @@
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+output.xml
+.DS_Store
+Thumbs.db
